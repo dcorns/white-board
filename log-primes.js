@@ -5,7 +5,6 @@
  * MIT Licensed
  */
 const logPrimes = (range) => {
-  const primes = [];
   let factors = 1;
   for(let i = 2;i<=range;i++){
     for(let ii = 2; ii <= range; ii++){
